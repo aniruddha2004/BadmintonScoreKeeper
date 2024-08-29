@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badminton Score Keeper</title>
+    <link rel="stylesheet" href="BadmintonScoreKeeper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns ">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://blenderartists.org/uploads/default/original/4X/6/e/d/6edfe25ef8263621b48ca112ba21452545605295.jpeg"
+                                    alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div>Badminton Score Keeper
+                                <hr>
+                            </div>
+
+                            <div class="content">
+                                <div id="scoreKeeper">
+                                    <span id="size"><span id="player1">0</span> to <span id="player2">0</span></span>
+                                    <br>Use the buttons to keep the score
+                                </div>
+                                <span>Maximum Score : </span>
+                                <div id="options">
+                                    <select name="maxScore" id="maxScore">
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <footer class="card-footer">
+                            <button id="btnPlayer1" class="button is-success card-footer-item">+1 Player One</button>
+                            <button id="btnPlayer2" class="button is-link card-footer-item">+1 Player Two</button>
+                            <button id="reset" class="button is-danger card-footer-item">Reset</button>
+                            <!-- <a href="#" class="card-footer-item" id="btnPlayer1">Save</a>
+                    <a href="#" class="card-footer-item">Edit</a>
+                    <a href="#" class="card-footer-item">Delete</a> -->
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="BadmintonScoreKeeper.js"></script>
+</body>
+
+</html>

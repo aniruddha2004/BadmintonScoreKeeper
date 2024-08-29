@@ -1,0 +1,14 @@
+html {
+    background: url(https://i.pinimg.com/originals/5f/7f/db/5f7fdb6180ec14aaf83b89641825e33b.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#size {
+    font-size: 30px;
+}
+
+#winnerDisplay{
+    text-align: center;
+    margin: 20px;
+}
